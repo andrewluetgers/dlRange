@@ -1,0 +1,21 @@
+{
+  "name": "getset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Luetgers <andrew.luetgers@gmail.com> (http://www.andrewluetgers.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.2.0",
+    "dot": "^1.0.3",
+    "lodash.isnan": "^3.0.0",
+    "lodash.range": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "osenv": "^0.1.1",
+    "request": "^2.57.0",
+    "zero-fill": "^2.2.1"
+  }
+}
