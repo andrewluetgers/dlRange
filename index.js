@@ -38,7 +38,7 @@ module.exports = function(nameTmpl, urlTmpl, rangeStart, rangeEnd, basePath, fin
 		val = function(n) {return n},
 		getUrlN = isnan(urlPad) ? val : function(n) {return zeroFill(urlPad, n)},
 		getNameN = isnan(urlPad) ? val : function(n) {return zeroFill(namePad, n)},
-		r = range(rangeStart, rangeEnd),
+		r = range(rangeStart, rangeEnd+1),
 		log = [], failed = [];
 
 	basePath = osenv.home() + basePath.replace(/\/$/, "");
