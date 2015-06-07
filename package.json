@@ -1,5 +1,5 @@
 {
-  "name": "getset",
+  "name": "dlRange",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrew Luetgers <andrew.luetgers@gmail.com> (http://www.andrewluetgers.com/)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "async": "^1.2.0",
     "dot": "^1.0.3",
